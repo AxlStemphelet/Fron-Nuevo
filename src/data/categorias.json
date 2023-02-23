@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "title":"Autos de Lujo",
+        "description":"1236 autos",
+        "urlImg":"https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    },
+    {
+        "id":"2",
+        "title":"Autos Deportivos",
+        "description":"210 autos",
+        "urlImg":"https://images.unsplash.com/photo-1630312465536-5c6b1f76dc3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhbWJvcmdoaW5pfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id":"3",
+        "title":"Autos Economicos",
+        "description":"9160 autos",
+        "urlImg":"https://images.unsplash.com/photo-1573071790459-2f8ed8953b02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    }
+]

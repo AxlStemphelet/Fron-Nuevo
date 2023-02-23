@@ -1,0 +1,45 @@
+    footer .contenedor {
+        display: flex;
+        background-color: #1DBEB4;
+        text-decoration:none;
+        
+    }
+    
+    footer .contenedor {
+        display: flex;
+        justify-content: space-between;
+        background-color: #1DBEB4;
+        position: relative;
+        z-index: 1;
+    }
+    
+    footer .copyBrand{
+        cursor: pointer;
+        color: #FFFFFF;
+        margin: 19px 0px 19px 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer .redesSociales{
+        display: flex;
+        margin: 5px 50px 5px 0px;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    footer .redesSociales a {
+        padding: 10px;
+    }
+    
+    footer .redesSociales i {
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    @media (max-width: 426px) {
+        .redesSociales{
+            visibility: hidden;
+            display: none;
+        }
+    }

@@ -1,0 +1,57 @@
+.container-1 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    font-weight: 700;
+    color: #31363f;
+}
+
+.container-1 p {
+    margin-bottom: 10px;
+}
+
+.Iniciales {
+        background: white;
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .P-in i {
+        display: inline;
+        padding-left: 70px;
+    }
+
+    .Nombre-ctm {
+        color: #ffff;
+    }
+
+    @media (min-width: 768px) {
+        .container-1 {
+        flex-direction: row;
+        text-align: start;
+        gap: 0.625rem;
+        color: #1DBEB4;
+        }
+
+        .Iniciales {
+        background-color: #31363f;
+        color: #ffff;
+        }
+        .Nombre-ctm {
+        color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    @media (max-width: 426px) {
+        .container-1{
+            visibility: hidden;
+        }
+    }
+    

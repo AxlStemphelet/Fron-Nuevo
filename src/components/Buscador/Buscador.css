@@ -1,0 +1,41 @@
+.buscador{
+    background-color: #383B58;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+}
+.form-buscador{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.btn-buscar{
+    color: #FFFFFF;
+    width: 20%;
+    height: 2.5rem;
+    background-color:#1DBEB4;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+@media(min-width:320px)and (max-width:767px){
+    .buscador{
+        padding: 0 5px;
+    }
+    .form-buscador{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-buscar{
+        width: 100%;
+    }
+}
